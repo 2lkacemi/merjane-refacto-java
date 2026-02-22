@@ -1,19 +1,16 @@
 package com.nimbleways.springboilerplate.services.implementations;
 
-import java.time.LocalDate;
-
+import com.nimbleways.springboilerplate.entities.Product;
+import com.nimbleways.springboilerplate.repositories.ProductRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.nimbleways.springboilerplate.entities.Product;
-import com.nimbleways.springboilerplate.repositories.ProductRepository;
+import java.time.LocalDate;
 
 @Service
 public class ProductService {
-
     @Autowired
     ProductRepository pr;
-
     @Autowired
     NotificationService ns;
 

@@ -2,9 +2,8 @@ package com.nimbleways.springboilerplate.entities;
 
 import lombok.*;
 
-import java.time.LocalDate;
-
 import javax.persistence.*;
+import java.time.LocalDate;
 
 @Entity
 @Getter
